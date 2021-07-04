@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntersectionObeserver - Infinite Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- Area to display number of the image loaded -->
+    <div class="monitor-area">
+      Total Images Loaded: <span class="placeholder">0</span>
+    </div>
+    <!-- Area to display images -->
+    <div class="image-container">
+      <ul class="image-list">
+        <!-- images be insert here -->
+      </ul>
+      <!-- loading spinner -->
+      <div class="spinner"></div>
+    </div>
+  </body>
+</html>
